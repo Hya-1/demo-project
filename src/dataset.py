@@ -10,9 +10,11 @@ print(message)
 print("Number:", number)
 print("Pi:", pi)
 
+
 # Function
 def greet(name):
     return f"Hello, {name}!"
+
 
 # Call function
 print(greet("Alice"))
@@ -20,6 +22,7 @@ print(greet("Alice"))
 # Loop
 for i in range(5):
     print(f"Loop iteration {i}")
+
 
 # Class
 class Dog:
@@ -29,6 +32,7 @@ class Dog:
 
     def bark(self):
         return f"{self.name} says woof!"
+
 
 # Create an instance of the class
 my_dog = Dog("Buddy", 3)
